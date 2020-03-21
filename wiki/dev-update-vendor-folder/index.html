@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+    
+    <title>Update vendor folder | Search Document</title>
+    
+    
+        <meta name="keywords" content="Framework7">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Update vendor folder This page is part of the App Framework Documentation    Framework7To be able to use the newest master branch of Framework7 and let developers use their modified Framework7 build,">
+<meta name="keywords" content="Framework7">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Update vendor folder">
+<meta property="og:url" content="https://search-site.github.io/wiki/dev-update-vendor-folder/index.html">
+<meta property="og:site_name" content="Search Document">
+<meta property="og:description" content="Update vendor folder This page is part of the App Framework Documentation    Framework7To be able to use the newest master branch of Framework7 and let developers use their modified Framework7 build,">
+<meta property="og:locale" content="ko">
+<meta property="og:updated_time" content="2020-03-21T16:11:43.632Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Update vendor folder">
+<meta name="twitter:description" content="Update vendor folder This page is part of the App Framework Documentation    Framework7To be able to use the newest master branch of Framework7 and let developers use their modified Framework7 build,">
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="Search Document" type="application/atom+xml">
+    
+
+    
+        <link rel="icon" href="/favicon.ico">
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
+
+
+    
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+</head>
+</html>
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">Search Document</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/">Main</a>
+                
+                    <a class="main-nav-link" href="/archives">TimeLine</a>
+                
+                    <a class="main-nav-link" href="/categories">Category</a>
+                
+                    <a class="main-nav-link" href="/tags">Tag</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="검색" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '포스트',
+            PAGES: 'Pages',
+            CATEGORIES: '카테고리',
+            TAGS: '태그',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/">Main</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">TimeLine</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Category</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tag</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="검색" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>카테고리</span>
+            &nbsp;
+            <a id='allExpand' href="#">
+                <i class="fa fa-angle-double-down fa-2x"></i>
+            </a>
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" > 
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            Framework7
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/app-component/">App component</a></li>  <li class="file"><a href="/wiki/application-style/">Application style</a></li>  <li class="file"><a href="/wiki/backup/">Backup your project</a></li>  <li class="file"><a href="/wiki/build/">Build your application</a></li>  <li class="file"><a href="/wiki/cli-commands/">CLI commands</a></li>  <li class="file"><a href="/wiki/configuration/">Configuration options</a></li>  <li class="file"><a href="/wiki/cordova-plugins/">Cordova plugins</a></li>  <li class="file"><a href="/wiki/cordova-preferences/">Cordova preferences</a></li>  <li class="file"><a href="/wiki/data-object/">Global data object</a></li>  <li class="file"><a href="/wiki/deploy/">Deploy your application</a></li>  <li class="file"><a href="/wiki/design/">Design your application</a></li>  <li class="file"><a href="/wiki/dev-coding-rules/">Coding rules</a></li>  <li class="file"><a href="/wiki/dev-folder-structure/">Folder structure</a></li>  <li class="file"><a href="/wiki/dev-requirements/">Requirements</a></li>  <li class="file"><a href="/wiki/dev-trouble-shooting/">Trouble shooting</a></li>  <li class="file active"><a href="/wiki/dev-update-vendor-folder/">Update vendor folder</a></li>  <li class="file"><a href="/wiki/dev-way-of-working/">Way of working</a></li>  <li class="file"><a href="/wiki/DOCUMENTATION/">App Framework - Documentation</a></li>  <li class="file"><a href="/wiki/editorconfigFile/">Configure editorconfig file</a></li>  <li class="file"><a href="/wiki/eslintrcFile/">Configure eslintrc file</a></li>  <li class="file"><a href="/wiki/extend-vue-root-object/">Extend the Vue</a></li>  <li class="file"><a href="/wiki/firebase/">Firebase backend</a></li>  <li class="file"><a href="/wiki/folder-structure/">Project folder structure</a></li>  <li class="file"><a href="/wiki/icon-fonts/">Icon fonts</a></li>  <li class="file"><a href="/wiki/ignoreFiles/">Configure gitignore and npmignore files</a></li>  <li class="file"><a href="/wiki/images/">Images</a></li>  <li class="file"><a href="/wiki/image-upload-component/">Image upload component</a></li>  <li class="file"><a href="/wiki/knowledge/">Knowledge requirements</a></li>  <li class="file"><a href="/wiki/language-files/">Languages Files</a></li>  <li class="file"><a href="/wiki/modules-and-scripts/">Modules and Scripts</a></li>  <li class="file"><a href="/wiki/page-components/">Page components</a></li>  <li class="file"><a href="/wiki/routing/">Routing</a></li>  <li class="file"><a href="/wiki/setup/">Setup your project</a></li>  <li class="file"><a href="/wiki/software/">Software requirements</a></li>  <li class="file"><a href="/wiki/state-restoration/">State restoration</a></li>  <li class="file"><a href="/wiki/sort-object/">sortObject function</a></li>  <li class="file"><a href="/wiki/status-bar-style/">Status bar style</a></li>  <li class="file"><a href="/wiki/test/">Test your application</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            Log
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/Init/">Init</a></li>  </ul> 
+                    </li> 
+                     </ul> 
+    </div>
+    <script>
+        $(document).ready(function() {
+            var iconFolderOpenClass  = 'fa-folder-open';
+            var iconFolderCloseClass = 'fa-folder';
+            var iconAllExpandClass = 'fa-angle-double-down';
+            var iconAllPackClass = 'fa-angle-double-up';
+            // Handle directory-tree expansion:
+            // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+                event.preventDefault();
+
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var subtree = $(this).siblings('ul');
+                icon.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if (expanded) {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideUp({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderCloseClass);
+                } else {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideDown({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderOpenClass);
+                }
+            });
+            // 右键展开下属所有目录
+            $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var listNode = $(this).siblings('ul');
+                var subtrees = $.merge(listNode.find('li ul'), listNode);
+                var icons = $.merge(listNode.find('.fa'), icon);
+                icons.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if(expanded) {
+                    subtrees.slideUp({ duration: 100 });
+                    icons.addClass(iconFolderCloseClass);
+                } else {
+                    subtrees.slideDown({ duration: 100 });
+                    icons.addClass(iconFolderOpenClass);
+                }
+            })
+            // 展开关闭所有目录按钮
+            $(document).on('click', '#allExpand', function (event) {
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconAllExpandClass);
+                icon.removeClass(iconAllExpandClass).removeClass(iconAllPackClass);
+                if(expanded) {
+                    $('#sidebar .fa.fa-folder').removeClass('fa-folder').addClass('fa-folder-open')
+                    $('#categories li ul').slideDown({ duration: 100 });
+                    icon.addClass(iconAllPackClass);
+                } else {
+                    $('#sidebar .fa.fa-folder-open').removeClass('fa-folder-open').addClass('fa-folder')
+                    $('#categories li ul').slideUp({ duration: 100 });
+                    icon.addClass(iconAllExpandClass);
+                }
+            });  
+        });
+    </script>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+            <section id="main"><article id="post-dev-update-vendor-folder" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/Framework7/">Framework7</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Framework7/">Framework7</a>
+    </div>
+
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/wiki/dev-update-vendor-folder/">
+            <time datetime="2020-03-15T10:04:47.000Z" itemprop="datePublished">2020-03-15</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/taeuk-gang/taeuk-gang.github.io/raw/writing/source/_posts/dev-update-vendor-folder.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/taeuk-gang/taeuk-gang.github.io/edit/writing/source/_posts/dev-update-vendor-folder.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/taeuk-gang/taeuk-gang.github.io/commits/writing/source/_posts/dev-update-vendor-folder.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Update vendor folder
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                <div id="toc" class="toc-article">
+                <strong class="toc-title">카탈로그</strong>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Update-vendor-folder"><span class="toc-number">1.</span> <span class="toc-text">Update vendor folder</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Framework7"><span class="toc-number">1.1.</span> <span class="toc-text">Framework7</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Framework7-Vue"><span class="toc-number">1.2.</span> <span class="toc-text">Framework7-Vue</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Material-Design-Icons"><span class="toc-number">1.3.</span> <span class="toc-text">Material Design Icons</span></a></li></ol></li></ol>
+                </div>
+            
+        
+        
+            <h1 id="Update-vendor-folder"><a href="#Update-vendor-folder" class="headerlink" title="Update vendor folder"></a>Update vendor folder</h1><blockquote>
+<p>This page is part of the <a href="../DOCUMENTATION.md">App Framework Documentation</a></p>
+</blockquote>
+<br>
+
+<h2 id="Framework7"><a href="#Framework7" class="headerlink" title="Framework7"></a>Framework7</h2><p>To be able to use the newest master branch of Framework7 and let developers use their modified Framework7 build, it is shipped directly with App Framework in the <em>vendor</em> folder.</p>
+<p>To update Framework7 in the vendor folder:</p>
+<ol>
+<li>Clone <a href="https://github.com/nolimits4web/Framework7" target="_blank" rel="noopener">Framework7 repo</a> in <em>Framework7</em> folder next to <em>app-framework</em> folder</li>
+<li>Run <code>npm install</code> in <em>Framework7</em> folder</li>
+<li>Run <code>npm run f7</code> in <em>app-framework</em> folder</li>
+</ol>
+<p>The kitchen sink files in the <em>demo</em> folder and the <em>client/theme-colors.json</em> file are updated as well.</p>
+<h2 id="Framework7-Vue"><a href="#Framework7-Vue" class="headerlink" title="Framework7-Vue"></a>Framework7-Vue</h2><p>To be able to use the newest master branch of Framework7-Vue and let developers use their modified Framework7-Vue build, it is shipped directly with App Framework in the <em>vendor</em> folder.</p>
+<p>To update Framework7-Vue in the vendor folder:</p>
+<ol>
+<li>Clone <a href="https://github.com/nolimits4web/Framework7-Vue" target="_blank" rel="noopener">Framework7-Vue repo</a> in <em>Framework7-Vue</em> folder next to <em>app-framework</em> folder</li>
+<li>Run <code>npm install</code> in <em>Framework7-Vue</em> folder</li>
+<li>Run <code>npm run f7vue</code> in <em>app-framework</em> folder</li>
+</ol>
+<h2 id="Material-Design-Icons"><a href="#Material-Design-Icons" class="headerlink" title="Material Design Icons"></a>Material Design Icons</h2><p>To avoid the need to install the huge Material Design Icons archive and to get the mapping between ligatures and codepoints, it is shipped directly with App Framework in the <em>vendor</em> folder.</p>
+<p>To update Material Design Icons in the vendor folder:</p>
+<ol>
+<li>Clone <a href="https://github.com/google/material-design-icons" target="_blank" rel="noopener">Material Design Icons repo</a> in <em>material-design-icons</em> folder next to <em>app-framework</em> folder</li>
+<li>Run <code>npm run iconfonts</code> in <em>app-framework</em> folder</li>
+</ol>
+<p>The <em>client/material-codepoints.json</em> file is updated as well.</p>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+    
+<nav id="article-nav">
+    
+        <a href="/wiki/dev-way-of-working/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">다음 글</strong>
+            <div class="article-nav-title">
+                
+                    Way of working
+                
+            </div>
+        </a>
+    
+    
+        <a href="/wiki/dev-trouble-shooting/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">이전 글</strong>
+            <div class="article-nav-title">Trouble shooting</div>
+        </a>
+    
+</nav>
+
+
+
+
+
+    
+    
+
+    <script src="https://utteranc.es/client.js"
+        repo="search-site/search-site.github.io"
+        issue-term="title"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
+</section>
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            Taeuk Kang &copy; 2020 
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+            <!-- <br> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme - <a href="https://github.com/zthxxx/hexo-theme-Wikitten">wikitten</a> -->
+            
+                <br>
+                <span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i> <span id="busuanzi_value_site_pv"></span></span>
+                &nbsp;|&nbsp;
+                <span id="busuanzi_container_site_pv"><i class="fa fa-user"></i> <span id="busuanzi_value_site_uv"></span></span>
+            
+        </div>
+    </div>
+</footer>
+
+        
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+        <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true,
+            TeX: {
+                equationNumbers: {
+                  autoNumber: 'AMS'
+                }
+            }
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>

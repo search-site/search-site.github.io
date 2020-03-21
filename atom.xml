@@ -18,8 +18,8 @@
   
   <entry>
     <title>Test your application</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/test/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/test/</id>
+    <link href="https://search-site.github.io/wiki/test/"/>
+    <id>https://search-site.github.io/wiki/test/</id>
     <published>2020-04-05T10:04:47.000Z</published>
     <updated>2020-03-21T16:16:50.625Z</updated>
     
@@ -43,8 +43,8 @@
   
   <entry>
     <title>Status bar style</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/status-bar-style/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/status-bar-style/</id>
+    <link href="https://search-site.github.io/wiki/status-bar-style/"/>
+    <id>https://search-site.github.io/wiki/status-bar-style/</id>
     <published>2020-04-04T10:04:47.000Z</published>
     <updated>2020-03-21T16:16:36.334Z</updated>
     
@@ -69,8 +69,8 @@
   
   <entry>
     <title>sortObject function</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/sort-object/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/sort-object/</id>
+    <link href="https://search-site.github.io/wiki/sort-object/"/>
+    <id>https://search-site.github.io/wiki/sort-object/</id>
     <published>2020-04-03T10:04:47.000Z</published>
     <updated>2020-03-21T16:16:21.232Z</updated>
     
@@ -94,8 +94,8 @@
   
   <entry>
     <title>State restoration</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/state-restoration/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/state-restoration/</id>
+    <link href="https://search-site.github.io/wiki/state-restoration/"/>
+    <id>https://search-site.github.io/wiki/state-restoration/</id>
     <published>2020-04-02T10:04:47.000Z</published>
     <updated>2020-03-21T16:16:08.638Z</updated>
     
@@ -120,8 +120,8 @@
   
   <entry>
     <title>Software requirements</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/software/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/software/</id>
+    <link href="https://search-site.github.io/wiki/software/"/>
+    <id>https://search-site.github.io/wiki/software/</id>
     <published>2020-04-01T10:04:47.000Z</published>
     <updated>2020-03-21T16:15:55.678Z</updated>
     
@@ -145,8 +145,8 @@
   
   <entry>
     <title>Setup your project</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/setup/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/setup/</id>
+    <link href="https://search-site.github.io/wiki/setup/"/>
+    <id>https://search-site.github.io/wiki/setup/</id>
     <published>2020-03-31T10:04:47.000Z</published>
     <updated>2020-03-21T16:15:39.176Z</updated>
     
@@ -170,8 +170,8 @@
   
   <entry>
     <title>Routing</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/routing/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/routing/</id>
+    <link href="https://search-site.github.io/wiki/routing/"/>
+    <id>https://search-site.github.io/wiki/routing/</id>
     <published>2020-03-30T10:04:47.000Z</published>
     <updated>2020-03-21T16:15:26.262Z</updated>
     
@@ -196,8 +196,8 @@
   
   <entry>
     <title>Page components</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/page-components/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/page-components/</id>
+    <link href="https://search-site.github.io/wiki/page-components/"/>
+    <id>https://search-site.github.io/wiki/page-components/</id>
     <published>2020-03-29T10:04:47.000Z</published>
     <updated>2020-03-21T16:15:14.353Z</updated>
     
@@ -222,8 +222,8 @@
   
   <entry>
     <title>Modules and Scripts</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/modules-and-scripts/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/modules-and-scripts/</id>
+    <link href="https://search-site.github.io/wiki/modules-and-scripts/"/>
+    <id>https://search-site.github.io/wiki/modules-and-scripts/</id>
     <published>2020-03-28T10:04:47.000Z</published>
     <updated>2020-03-21T16:15:01.983Z</updated>
     
@@ -247,8 +247,8 @@
   
   <entry>
     <title>Languages Files</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/language-files/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/language-files/</id>
+    <link href="https://search-site.github.io/wiki/language-files/"/>
+    <id>https://search-site.github.io/wiki/language-files/</id>
     <published>2020-03-27T10:04:47.000Z</published>
     <updated>2020-03-21T16:42:06.578Z</updated>
     
@@ -273,8 +273,8 @@
   
   <entry>
     <title>Knowledge requirements</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/knowledge/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/knowledge/</id>
+    <link href="https://search-site.github.io/wiki/knowledge/"/>
+    <id>https://search-site.github.io/wiki/knowledge/</id>
     <published>2020-03-26T10:04:47.000Z</published>
     <updated>2020-03-21T16:14:33.142Z</updated>
     
@@ -298,8 +298,8 @@
   
   <entry>
     <title>Images</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/images/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/images/</id>
+    <link href="https://search-site.github.io/wiki/images/"/>
+    <id>https://search-site.github.io/wiki/images/</id>
     <published>2020-03-25T10:04:47.000Z</published>
     <updated>2020-03-21T16:14:16.320Z</updated>
     
@@ -324,8 +324,8 @@
   
   <entry>
     <title>Image upload component</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/image-upload-component/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/image-upload-component/</id>
+    <link href="https://search-site.github.io/wiki/image-upload-component/"/>
+    <id>https://search-site.github.io/wiki/image-upload-component/</id>
     <published>2020-03-25T10:04:47.000Z</published>
     <updated>2020-03-21T16:14:07.289Z</updated>
     
@@ -349,8 +349,8 @@
   
   <entry>
     <title>Configure gitignore and npmignore files</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/ignoreFiles/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/ignoreFiles/</id>
+    <link href="https://search-site.github.io/wiki/ignoreFiles/"/>
+    <id>https://search-site.github.io/wiki/ignoreFiles/</id>
     <published>2020-03-24T10:04:47.000Z</published>
     <updated>2020-03-21T16:32:35.354Z</updated>
     
@@ -374,8 +374,8 @@
   
   <entry>
     <title>Icon fonts</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/icon-fonts/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/icon-fonts/</id>
+    <link href="https://search-site.github.io/wiki/icon-fonts/"/>
+    <id>https://search-site.github.io/wiki/icon-fonts/</id>
     <published>2020-03-23T10:04:47.000Z</published>
     <updated>2020-03-21T16:13:37.958Z</updated>
     
@@ -400,8 +400,8 @@
   
   <entry>
     <title>Project folder structure</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/folder-structure/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/folder-structure/</id>
+    <link href="https://search-site.github.io/wiki/folder-structure/"/>
+    <id>https://search-site.github.io/wiki/folder-structure/</id>
     <published>2020-03-22T10:04:47.000Z</published>
     <updated>2020-03-21T16:13:27.023Z</updated>
     
@@ -451,8 +451,8 @@
   
   <entry>
     <title>Firebase backend</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/firebase/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/firebase/</id>
+    <link href="https://search-site.github.io/wiki/firebase/"/>
+    <id>https://search-site.github.io/wiki/firebase/</id>
     <published>2020-03-21T10:04:47.000Z</published>
     <updated>2020-03-21T16:13:15.431Z</updated>
     
@@ -477,8 +477,8 @@
   
   <entry>
     <title>Extend the Vue</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/extend-vue-root-object/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/extend-vue-root-object/</id>
+    <link href="https://search-site.github.io/wiki/extend-vue-root-object/"/>
+    <id>https://search-site.github.io/wiki/extend-vue-root-object/</id>
     <published>2020-03-20T10:04:47.000Z</published>
     <updated>2020-03-21T16:32:26.649Z</updated>
     
@@ -502,8 +502,8 @@
   
   <entry>
     <title>Configure eslintrc file</title>
-    <link href="https://search-site.github.io/wiki/framework7-template/eslintrcFile/"/>
-    <id>https://search-site.github.io/wiki/framework7-template/eslintrcFile/</id>
+    <link href="https://search-site.github.io/wiki/eslintrcFile/"/>
+    <id>https://search-site.github.io/wiki/eslintrcFile/</id>
     <published>2020-03-19T10:04:47.000Z</published>
     <updated>2020-03-21T16:32:00.727Z</updated>
     
