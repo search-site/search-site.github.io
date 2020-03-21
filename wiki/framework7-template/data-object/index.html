@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+    
+    <title>Global data object | Search Document</title>
+    
+    
+        <meta name="keywords" content="Framework7">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Global data object This page is part of the App Framework Documentation  App Framework provides a global persistent data object for common used data or settings. The data object will be restored on ea">
+<meta name="keywords" content="Framework7">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Global data object">
+<meta property="og:url" content="https://search-site.github.io/wiki/framework7-template/data-object/index.html">
+<meta property="og:site_name" content="Search Document">
+<meta property="og:description" content="Global data object This page is part of the App Framework Documentation  App Framework provides a global persistent data object for common used data or settings. The data object will be restored on ea">
+<meta property="og:locale" content="ko">
+<meta property="og:updated_time" content="2020-03-21T16:39:53.367Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Global data object">
+<meta name="twitter:description" content="Global data object This page is part of the App Framework Documentation  App Framework provides a global persistent data object for common used data or settings. The data object will be restored on ea">
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="Search Document" type="application/atom+xml">
+    
+
+    
+        <link rel="icon" href="/favicon.ico">
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
+
+
+    
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+</head>
+</html>
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">Search Document</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/">Main</a>
+                
+                    <a class="main-nav-link" href="/archives">TimeLine</a>
+                
+                    <a class="main-nav-link" href="/categories">Category</a>
+                
+                    <a class="main-nav-link" href="/tags">Tag</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="검색" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '포스트',
+            PAGES: 'Pages',
+            CATEGORIES: '카테고리',
+            TAGS: '태그',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/">Main</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">TimeLine</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Category</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tag</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="검색" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>카테고리</span>
+            &nbsp;
+            <a id='allExpand' href="#">
+                <i class="fa fa-angle-double-down fa-2x"></i>
+            </a>
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" > 
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            Framework7
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/framework7-template/app-component/">App component</a></li>  <li class="file"><a href="/wiki/framework7-template/application-style/">Application style</a></li>  <li class="file"><a href="/wiki/framework7-template/backup/">Backup your project</a></li>  <li class="file"><a href="/wiki/framework7-template/build/">Build your application</a></li>  <li class="file"><a href="/wiki/framework7-template/cli-commands/">CLI commands</a></li>  <li class="file"><a href="/wiki/framework7-template/configuration/">Configuration options</a></li>  <li class="file"><a href="/wiki/framework7-template/cordova-plugins/">Cordova plugins</a></li>  <li class="file"><a href="/wiki/framework7-template/cordova-preferences/">Cordova preferences</a></li>  <li class="file active"><a href="/wiki/framework7-template/data-object/">Global data object</a></li>  <li class="file"><a href="/wiki/framework7-template/deploy/">Deploy your application</a></li>  <li class="file"><a href="/wiki/framework7-template/design/">Design your application</a></li>  <li class="file"><a href="/wiki/framework7-template/dev-coding-rules/">Coding rules</a></li>  <li class="file"><a href="/wiki/framework7-template/dev-folder-structure/">Folder structure</a></li>  <li class="file"><a href="/wiki/framework7-template/dev-requirements/">Requirements</a></li>  <li class="file"><a href="/wiki/framework7-template/dev-trouble-shooting/">Trouble shooting</a></li>  <li class="file"><a href="/wiki/framework7-template/dev-update-vendor-folder/">Update vendor folder</a></li>  <li class="file"><a href="/wiki/framework7-template/dev-way-of-working/">Way of working</a></li>  <li class="file"><a href="/wiki/framework7-template/DOCUMENTATION/">App Framework - Documentation</a></li>  <li class="file"><a href="/wiki/framework7-template/editorconfigFile/">Configure editorconfig file</a></li>  <li class="file"><a href="/wiki/framework7-template/eslintrcFile/">Configure eslintrc file</a></li>  <li class="file"><a href="/wiki/framework7-template/extend-vue-root-object/">Extend the Vue</a></li>  <li class="file"><a href="/wiki/framework7-template/firebase/">Firebase backend</a></li>  <li class="file"><a href="/wiki/framework7-template/folder-structure/">Project folder structure</a></li>  <li class="file"><a href="/wiki/framework7-template/icon-fonts/">Icon fonts</a></li>  <li class="file"><a href="/wiki/framework7-template/ignoreFiles/">Configure gitignore and npmignore files</a></li>  <li class="file"><a href="/wiki/framework7-template/image-upload-component/">Image upload component</a></li>  <li class="file"><a href="/wiki/framework7-template/images/">Images</a></li>  <li class="file"><a href="/wiki/framework7-template/knowledge/">Knowledge requirements</a></li>  <li class="file"><a href="/wiki/framework7-template/language-files/">Languages Files</a></li>  <li class="file"><a href="/wiki/framework7-template/modules-and-scripts/">Modules and Scripts</a></li>  <li class="file"><a href="/wiki/framework7-template/page-components/">Page components</a></li>  <li class="file"><a href="/wiki/framework7-template/routing/">Routing</a></li>  <li class="file"><a href="/wiki/framework7-template/setup/">Setup your project</a></li>  <li class="file"><a href="/wiki/framework7-template/software/">Software requirements</a></li>  <li class="file"><a href="/wiki/framework7-template/state-restoration/">State restoration</a></li>  <li class="file"><a href="/wiki/framework7-template/sort-object/">sortObject function</a></li>  <li class="file"><a href="/wiki/framework7-template/status-bar-style/">Status bar style</a></li>  <li class="file"><a href="/wiki/framework7-template/test/">Test your application</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            Log
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/Init/">Init</a></li>  </ul> 
+                    </li> 
+                     </ul> 
+    </div>
+    <script>
+        $(document).ready(function() {
+            var iconFolderOpenClass  = 'fa-folder-open';
+            var iconFolderCloseClass = 'fa-folder';
+            var iconAllExpandClass = 'fa-angle-double-down';
+            var iconAllPackClass = 'fa-angle-double-up';
+            // Handle directory-tree expansion:
+            // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+                event.preventDefault();
+
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var subtree = $(this).siblings('ul');
+                icon.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if (expanded) {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideUp({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderCloseClass);
+                } else {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideDown({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderOpenClass);
+                }
+            });
+            // 右键展开下属所有目录
+            $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var listNode = $(this).siblings('ul');
+                var subtrees = $.merge(listNode.find('li ul'), listNode);
+                var icons = $.merge(listNode.find('.fa'), icon);
+                icons.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if(expanded) {
+                    subtrees.slideUp({ duration: 100 });
+                    icons.addClass(iconFolderCloseClass);
+                } else {
+                    subtrees.slideDown({ duration: 100 });
+                    icons.addClass(iconFolderOpenClass);
+                }
+            })
+            // 展开关闭所有目录按钮
+            $(document).on('click', '#allExpand', function (event) {
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconAllExpandClass);
+                icon.removeClass(iconAllExpandClass).removeClass(iconAllPackClass);
+                if(expanded) {
+                    $('#sidebar .fa.fa-folder').removeClass('fa-folder').addClass('fa-folder-open')
+                    $('#categories li ul').slideDown({ duration: 100 });
+                    icon.addClass(iconAllPackClass);
+                } else {
+                    $('#sidebar .fa.fa-folder-open').removeClass('fa-folder-open').addClass('fa-folder')
+                    $('#categories li ul').slideUp({ duration: 100 });
+                    icon.addClass(iconAllExpandClass);
+                }
+            });  
+        });
+    </script>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+            <section id="main"><article id="post-framework7-template/data-object" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/Framework7/">Framework7</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Framework7/">Framework7</a>
+    </div>
+
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/wiki/framework7-template/data-object/">
+            <time datetime="2020-03-09T04:04:47.000Z" itemprop="datePublished">2020-03-09</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/taeuk-gang/taeuk-gang.github.io/raw/writing/source/_posts/framework7-template/data-object.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/taeuk-gang/taeuk-gang.github.io/edit/writing/source/_posts/framework7-template/data-object.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/taeuk-gang/taeuk-gang.github.io/commits/writing/source/_posts/framework7-template/data-object.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Global data object
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                <div id="toc" class="toc-article">
+                <strong class="toc-title">카탈로그</strong>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Global-data-object"><span class="toc-number">1.</span> <span class="toc-text">Global data object</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#With-App-Framework-v1-13-2-or-later"><span class="toc-number">1.1.</span> <span class="toc-text">With App Framework v1.13.2 or later</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Save-data"><span class="toc-number">1.1.1.</span> <span class="toc-text">Save data</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Get-data"><span class="toc-number">1.1.2.</span> <span class="toc-text">Get data</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Remove-data"><span class="toc-number">1.1.3.</span> <span class="toc-text">Remove data</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Notes"><span class="toc-number">1.1.4.</span> <span class="toc-text">Notes</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#With-App-Framework-v1-12-or-later"><span class="toc-number">1.2.</span> <span class="toc-text">With App Framework v1.12 or later</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#With-App-Framework-v1-11-or-before"><span class="toc-number">1.3.</span> <span class="toc-text">With App Framework v1.11 or before</span></a></li></ol></li></ol>
+                </div>
+            
+        
+        
+            <h1 id="Global-data-object"><a href="#Global-data-object" class="headerlink" title="Global data object"></a>Global data object</h1><blockquote>
+<p>This page is part of the <a href="../DOCUMENTATION.md">App Framework Documentation</a></p>
+</blockquote>
+<p>App Framework provides a global persistent data object for common used data or settings.</p>
+<p>The data object will be restored on each application reload and is accessible in any Vue hook <code>created</code> or later.</p>
+<h2 id="With-App-Framework-v1-13-2-or-later"><a href="#With-App-Framework-v1-13-2-or-later" class="headerlink" title="With App Framework v1.13.2 or later"></a>With App Framework v1.13.2 or later</h2><h3 id="Save-data"><a href="#Save-data" class="headerlink" title="Save data"></a>Save data</h3><ul>
+<li>Template: <code>&lt;f7-button @click=&quot;$db(&#39;main.sub&#39;, &#39;value&#39;)&quot;&gt;Save data&lt;/f7-button&gt;</code></li>
+<li>Script: <code>this.$db(&#39;main.sub&#39;, &#39;value&#39;)</code></li>
+</ul>
+<h3 id="Get-data"><a href="#Get-data" class="headerlink" title="Get data"></a>Get data</h3><ul>
+<li><p>Template: </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#123;$db(&apos;main.sub&apos;)&#125;&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Script: </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">this.$db(&apos;main.sub&apos;)</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="Remove-data"><a href="#Remove-data" class="headerlink" title="Remove data"></a>Remove data</h3><ul>
+<li>Template: <code>&lt;f7-button @click=&quot;$db(&#39;main.sub&#39;, null)&quot;&gt;Remove data&lt;/f7-button&gt;</code></li>
+<li>Script: <code>this.$db(&#39;main.sub&#39;, null)</code></li>
+</ul>
+<h3 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h3><p><code>main.sub</code> mean the paths within the data object. With a point, you can realize nested objects. Example:</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"main"</span>: &#123;</span><br><span class="line">    <span class="attr">"sub"</span>: <span class="string">"value"</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="With-App-Framework-v1-12-or-later"><a href="#With-App-Framework-v1-12-or-later" class="headerlink" title="With App Framework v1.12 or later"></a>With App Framework v1.12 or later</h2><p><strong>Save data</strong></p>
+<ul>
+<li>Template: <figure class="highlight plain"><figcaption><span>@click</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- Script: ```this.$save(&apos;main.sub&apos;, &apos;value&apos;)</span><br></pre></td></tr></table></figure></li>
+</ul>
+<p><strong>Get data</strong></p>
+<ul>
+<li>Template: <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- Script: ```this.$get.main.sub</span><br></pre></td></tr></table></figure></li>
+</ul>
+<p><strong>Remove data</strong></p>
+<ul>
+<li>Template: <figure class="highlight plain"><figcaption><span>@click</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- Script: ```this.$remove(&apos;main.sub&apos;)</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="With-App-Framework-v1-11-or-before"><a href="#With-App-Framework-v1-11-or-before" class="headerlink" title="With App Framework v1.11 or before"></a>With App Framework v1.11 or before</h2><ul>
+<li>To save data, use <code>this.$root.saveData(path, value)</code></li>
+<li>To remove data, use <code>this.$root.removeData(path)</code></li>
+<li>To retrieve data, use <code>this.$root.data.path</code></li>
+</ul>
+<p>The <em>path</em> must be a string, use a a point to nest data. Example:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">created: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">this</span>.$root.saveData(<span class="string">'greeting'</span>, <span class="string">'Hello!'</span>)</span><br><span class="line">  <span class="keyword">this</span>.$root.saveData(<span class="string">'names'</span>, &#123;<span class="attr">first</span>: <span class="string">'Jan'</span>, <span class="attr">second</span>: <span class="string">'Tom'</span>, <span class="attr">third</span>: <span class="string">'Sophie'</span>&#125;)</span><br><span class="line">  <span class="keyword">this</span>.$root.removeData(<span class="string">'names.second'</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Now, the data object will look like following:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  greeting: 'Hello!',</span><br><span class="line">  names: &#123;</span><br><span class="line">    first: 'Jan',</span><br><span class="line">    third: 'Sophie'</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Example for the usage in templates:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">f7-block</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>UTC date: &#123;&#123;$root.data.dateString&#125;&#125;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">f7-buttons</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">f7-button</span> @<span class="attr">click</span>=<span class="string">"$root.saveData('dateString', (new Date()).toUTCString())"</span>&gt;</span>Update date<span class="tag">&lt;/<span class="name">f7-button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">f7-button</span> @<span class="attr">click</span>=<span class="string">"$root.removeData('dateString')"</span>&gt;</span>Remove date<span class="tag">&lt;/<span class="name">f7-button</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">f7-buttons</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">f7-block</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>Do not modify <code>$root.data</code> directly, because there wont be any update triggered.</p>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+    
+<nav id="article-nav">
+    
+        <a href="/wiki/framework7-template/deploy/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">다음 글</strong>
+            <div class="article-nav-title">
+                
+                    Deploy your application
+                
+            </div>
+        </a>
+    
+    
+        <a href="/wiki/framework7-template/cordova-preferences/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">이전 글</strong>
+            <div class="article-nav-title">Cordova preferences</div>
+        </a>
+    
+</nav>
+
+
+
+
+
+    
+    
+
+    <script src="https://utteranc.es/client.js"
+        repo="search-site/search-site.github.io"
+        issue-term="title"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
+</section>
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            Taeuk Kang &copy; 2020 
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+            <!-- <br> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme - <a href="https://github.com/zthxxx/hexo-theme-Wikitten">wikitten</a> -->
+            
+                <br>
+                <span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i> <span id="busuanzi_value_site_pv"></span></span>
+                &nbsp;|&nbsp;
+                <span id="busuanzi_container_site_pv"><i class="fa fa-user"></i> <span id="busuanzi_value_site_uv"></span></span>
+            
+        </div>
+    </div>
+</footer>
+
+        
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+        <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true,
+            TeX: {
+                equationNumbers: {
+                  autoNumber: 'AMS'
+                }
+            }
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
