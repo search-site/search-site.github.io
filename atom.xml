@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Search Document</title>
+  
+  <subtitle>For Memory</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://search-site.github.io/"/>
+  <updated>2020-03-21T15:58:32.993Z</updated>
+  <id>https://search-site.github.io/</id>
+  
+  <author>
+    <name>Taeuk Kang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Init</title>
+    <link href="https://search-site.github.io/wiki/Init/"/>
+    <id>https://search-site.github.io/wiki/Init/</id>
+    <published>2020-03-22T10:04:47.000Z</published>
+    <updated>2020-03-21T15:58:32.993Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Init"><a href="#Init" class="headerlink" title="Init"></a>Init</h2><p>search용 사이트</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Init&quot;&gt;&lt;a href=&quot;#Init&quot; class=&quot;headerlink&quot; title=&quot;Init&quot;&gt;&lt;/a&gt;Init&lt;/h2&gt;&lt;p&gt;search용 사이트&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Log" scheme="https://search-site.github.io/categories/Log/"/>
+    
+    
+      <category term="Log" scheme="https://search-site.github.io/tags/Log/"/>
+    
+  </entry>
+  
+</feed>
